@@ -1,0 +1,9 @@
+FROM ubuntu:18.04
+MAINTAINER arunabakarr2005@gmail.com
+RUN lsblk
+RUN free -m
+RUN lscpu
+RUN uname -r
+RUN cat /etc/*release
+
+
